@@ -1,0 +1,213 @@
+<html>
+ <head>
+  <title>
+   Weather Forecast
+  </title>
+  <style>
+   body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f5f5f5;
+        }
+        .container {
+            background-color: white;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            padding: 20px;
+            width: 300px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .location {
+            font-size: 24px;
+            font-weight: bold;
+        }
+        .date {
+            font-size: 16px;
+            color: #888;
+            margin-bottom: 20px;
+        }
+        .current-weather {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 20px;
+        }
+        .current-weather img {
+            width: 80px;
+            height: 80px;
+        }
+        .current-weather .temp {
+            font-size: 48px;
+            font-weight: bold;
+        }
+        .current-weather .description {
+            font-size: 16px;
+            color: #888;
+        }
+        .details {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 20px;
+        }
+        .details div {
+            text-align: center;
+        }
+        .details div span {
+            display: block;
+            font-size: 16px;
+            font-weight: bold;
+        }
+        .details div small {
+            display: block;
+            font-size: 12px;
+            color: #888;
+        }
+        .forecast {
+            text-align: center;
+        }
+        .forecast h3 {
+            font-size: 16px;
+            margin-bottom: 10px;
+        }
+        .forecast .day {
+            display: inline-block;
+            width: 50px;
+            text-align: center;
+            margin: 0 5px;
+        }
+        .forecast .day img {
+            width: 30px;
+            height: 30px;
+        }
+        .forecast .day span {
+            display: block;
+            font-size: 14px;
+            margin-top: 5px;
+        }
+  </style>
+ </head>
+ <body>
+  <div class="container">
+   <div class="location">
+    Iloilo, Ph
+   </div>
+   <div class="date">
+    Monday 29 August
+   </div>
+   <div class="current-weather">
+    <img alt="Weather icon" height="80" src="https://storage.googleapis.com/a1aa/image/ZyLTirfGZ0yddi9f5DViTos2ZQofukf5QDwAFXAyzh6wY7cPB.jpg" width="80"/>
+    <div class="temp">
+     21°
+    </div>
+    <div class="description">
+     Mostly sunny
+    </div>
+   </div>
+   <div class="details">
+    <div>
+     <span>
+      23°
+     </span>
+     <small>
+      High
+     </small>
+    </div>
+    <div>
+     <span>
+      7mph
+     </span>
+     <small>
+      Wind
+     </small>
+    </div>
+    <div>
+     <span>
+      05:27
+     </span>
+     <small>
+      Sunrise
+     </small>
+    </div>
+    <div>
+     <span>
+      14°
+     </span>
+     <small>
+      Low
+     </small>
+    </div>
+    <div>
+     <span>
+      0%
+     </span>
+     <small>
+      Rain
+     </small>
+    </div>
+    <div>
+     <span>
+      20:57
+     </span>
+     <small>
+      Sunset
+     </small>
+    </div>
+   </div>
+   <div class="forecast">
+    <h3>
+     Next 5 days
+    </h3>
+    <div class="day">
+     <img alt="Weather icon" height="30" src="https://storage.googleapis.com/a1aa/image/ZyLTirfGZ0yddi9f5DViTos2ZQofukf5QDwAFXAyzh6wY7cPB.jpg" width="30"/>
+     <span>
+      Tue
+     </span>
+     <span>
+      10-21°
+     </span>
+    </div>
+    <div class="day">
+     <img alt="Weather icon" height="30" src="https://storage.googleapis.com/a1aa/image/ZyLTirfGZ0yddi9f5DViTos2ZQofukf5QDwAFXAyzh6wY7cPB.jpg" width="30"/>
+     <span>
+      Wed
+     </span>
+     <span>
+      9-18°
+     </span>
+    </div>
+    <div class="day">
+     <img alt="Weather icon" height="30" src="https://storage.googleapis.com/a1aa/image/ZyLTirfGZ0yddi9f5DViTos2ZQofukf5QDwAFXAyzh6wY7cPB.jpg" width="30"/>
+     <span>
+      Thu
+     </span>
+     <span>
+      7-15°
+     </span>
+    </div>
+    <div class="day">
+     <img alt="Weather icon" height="30" src="https://storage.googleapis.com/a1aa/image/ZyLTirfGZ0yddi9f5DViTos2ZQofukf5QDwAFXAyzh6wY7cPB.jpg" width="30"/>
+     <span>
+      Fri
+     </span>
+     <span>
+      10-21°
+     </span>
+    </div>
+    <div class="day">
+     <img alt="Weather icon" height="30" src="https://storage.googleapis.com/a1aa/image/ZyLTirfGZ0yddi9f5DViTos2ZQofukf5QDwAFXAyzh6wY7cPB.jpg" width="30"/>
+     <span>
+      Sat
+     </span>
+     <span>
+      12-24°
+     </span>
+    </div>
+   </div>
+  </div>
+ </body>
+</html>
